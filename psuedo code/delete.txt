@@ -1,0 +1,17 @@
+check of er op submit is geklikt
+    maak verbinding met de database
+    zet de data uit de form in vars (vergeet hierbij niet mysqliescape)
+    als de data valide is
+        bouw een delete query op die overeen komt met de ingevulde data
+        voer deze uit
+        als dit lukt
+            redirect naar index.php
+        als dit niet lukt
+            laat een error message zien
+    als data niet valide is
+        formulier opnieuw laten zien
+        error message bij de juiste velden tonen
+niet op submit geklikt
+    lege form laten zien
+
+

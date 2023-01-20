@@ -1,0 +1,81 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+    height: 10vh;
+}
+
+nav a {
+
+    text-align: center;
+    flex: 1;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+
+
+}
+
+nav:hover {
+    background-color: brown;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://static.wixstatic.com/media/f78bb2_87ad503cfb0d496c802d19dae98205a7~mv2.jpg/v1/fill/w_1080,h_1350,al_c,q_85/f78bb2_87ad503cfb0d496c802d19dae98205a7~mv2.jpg);
+    background-size: cover;
+    height: 40vh;
+    background-position: center;
+}
+
+header h3 {
+    margin: 20vh;
+    font-size: 5em;
+}
+main {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+main section {
+    margin-top: 15vh;
+    width: 20vw;
+    height: 45vh;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    border-style: groove ;
+    border-width: 1vw;
+    border-color: brown;
+
+}
+main section p {
+    width: 10vw;
+
+    text-align: center;
+}
+img {
+    width: auto;
+    height: 10vh;
+
+}
+
+ main img {
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+
+}
+
+

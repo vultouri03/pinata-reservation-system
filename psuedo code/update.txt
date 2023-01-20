@@ -1,0 +1,18 @@
+als de Id meeisgegeven via GET
+    als de form gesubmit is
+        zet de data uit de form in variabellen
+        als de data valide is
+            maak een update query waar de id overeenkomt met die uit de get
+            voer deze uit
+            als dat goed gaat
+                redirect terug naar admin.php
+            als er iets fout gaat
+                laat een error zien
+        als de data niet valide is
+            laat het formulier zien
+            toon foutmeldingen onder de velden in de form
+    als er niet op submit geklikt is
+als er geen id is mee gegeven via GET
+    ga terug naar details.php
+
+

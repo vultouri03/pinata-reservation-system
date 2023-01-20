@@ -1,0 +1,28 @@
+check of er op submit geklikt is
+    zet de data uit de form in variabelelen
+    als de data valide is
+        verbind met de database
+        maak een insert query voor de orders tabel
+        voer deze query uit
+        als correct uitgevoerd is
+            pak de id van deze query
+            maak een insert query voor de pinata_table
+            voer deze uit
+            als deze correct is uitgevoerd
+                pak de id van deze query
+                maak een insert query voor de order_tags tabel
+                voer deze uit
+                als deze correct is uitgevoerd
+                    redirect naar index.html
+                niet correct uitgevoerd
+                    laat een error zien
+            niet correct uitgevoerd
+                laat een error zien
+        niet correct uitgevoerd
+            laat een error zien
+        db sluiten
+    als data niet valide is
+        formulier opnieuw laten zien
+        error message bij de juiste velden tonen
+niet op submit geklikt
+    lege form laten zien

@@ -1,0 +1,9 @@
+verbind met de database
+maak een select query
+voer deze query uit
+als dat goed gegaan is
+    zet de data uit deze query in een array
+als dat misgaat
+    laat een error zien
+sluit de db
+plaats de data uit deze array in een tabel
